@@ -1,0 +1,239 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ff0000;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.left {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vth {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+ /* right part */
+.v1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid rgb(31, 33, 34);
+  width: 80%;
+}
+.k {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.r1 {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(234, 55, 85);
+  border-radius: 2.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.vthulu {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+.vthulu:hover {
+  box-shadow: 0 0 5px rgb(38, 38, 40), 0 0 15px rgb(39, 40, 41);
+}
+.r1.pink {
+  background-color: rgb(238, 82, 191);
+}
+.r1.pink:hover {
+  box-shadow: 0 0 5px rgb(209, 72, 168), 0 0 15px rgb(207, 105, 220);
+}
+.r1.blue {
+  background-color: rgb(63, 131, 209);
+}
+.r1.blue:hover {
+  box-shadow: 0 0 5px rgb(39, 135, 232), 0 0 15px rgb(48, 126, 216);
+}
+
+
+
+
+.r1.green {
+    background-color: rgb(90, 239, 122);
+}
+
+.r1.green:hover {
+    box-shadow: 0 0 5px rgb(17, 233, 53), 0 0 15px rgb(36, 227, 36);
+}
+
+
+.r1.purple {
+    background-color: rgb(166, 126, 225);
+}
+
+
+.r1.purple:hover {
+    box-shadow: 0 0 5px rgb(128, 76, 219), 0 0 15px rgb(145, 92, 237);
+}
+
+
+.r1.red {
+    background-color: rgb(237, 73, 79);
+}
+
+.r1.red:hover {
+    box-shadow: 0 0 5px rgb(222, 46, 46), 0 0 15px rgb(216, 55, 55);
+}
+
+.r1.orange {
+    background-color: rgb(236, 87, 54);
+}
+
+.r1.orange:hover {
+    box-shadow: 0 0 5px rgb(233, 77, 10), 0 0 15px rgb(219, 58, 17);
+}
+.r1.violet {
+    background-color: rgb(226, 16, 230);
+}
+
+.r1.violet:hover {
+    box-shadow: 0 0 5px rgb(248, 11, 248), 0 0 15px rgb(216, 38, 223);
+}
+
+
+/* left part */
+
+.c.t1,
+.c.t2,
+.c.t3,
+.c.t4,
+.c.t5 {
+  background-color: rgb(238, 82, 191);
+}
+
+.c.t1:hover,
+.c.t2:hover,
+.c.t3:hover,
+.c.t4:hover,
+.c.t5:hover {
+  box-shadow: 0 0 5px rgb(209, 72, 168), 0 0 15px rgb(207, 105, 220);
+}
+
+
+.c.t1.blue,
+.c.t2.blue,
+.c.t3.blue,
+.c.t4.blue,
+.c.t5.blue {
+    background-color: rgb(63, 131, 209);
+}
+
+.c.t1.blue:hover,
+.c.t2.blue:hover,
+.c.t3.blue:hover,
+.c.t4.blue:hover,
+.c.t5.blue:hover {
+    box-shadow: 0 0 5px rgb(39, 135, 232), 0 0 15px rgb(48, 126, 216);
+}
+
+.c.t1.green,
+.c.t2.green,
+.c.t3.green,
+.c.t4.green,
+.c.t5.green {
+    background-color: rgb(90, 239, 122);
+}
+
+.c.t1.green:hover,
+.c.t2.green:hover,
+.c.t3.green:hover,
+.c.t4.green:hover,
+.c.t5.green:hover {
+    box-shadow: 0 0 5px rgb(17, 233, 53), 0 0 15px rgb(36, 227, 36);
+}
+
+.c.t1.purple,
+.c.t2.purple,
+.c.t3.purple,
+.c.t4.purple,
+.c.t5.purple {
+    background-color: rgb(166, 126, 225);
+}
+
+.c.t1.purple:hover,
+.c.t2.purple:hover,
+.c.t3.purple:hover,
+.c.t4.purple:hover,
+.c.t5.purple:hover {
+    box-shadow: 0 0 5px rgb(128, 76, 219), 0 0 15px rgb(145, 92, 237);
+}
+
+.c.t1.red,
+.c.t2.red,
+.c.t3.red,
+.c.t4.red,
+.c.t5.red {
+    background-color: rgb(237, 73, 79);
+}
+
+.c.t1.red:hover,
+.c.t2.red:hover,
+.c.t3.red:hover,
+.c.t4.red:hover,
+.c.t5.red:hover {
+    box-shadow: 0 0 5px rgb(222, 46, 46), 0 0 15px rgb(216, 55, 55);
+}
+
+
+.c.t1.orange,
+.c.t2.orange,
+.c.t3.orange,
+.c.t4.orange,
+.c.t5.orange {
+  
+    background-color: rgb(236, 87, 54);
+}
+
+.c.t1.orange:hover,
+.c.t2.orange:hover,
+.c.t3.orange:hover,
+.c.t4.orange:hover,
+.c.t5.orange:hover {
+    box-shadow: 0 0 5px rgb(233, 77, 10), 0 0 15px rgb(219, 58, 17);
+}
+.c.t1.violet,
+.c.t2.violet,
+.c.t3.violet,
+.c.t4.violet,
+.c.t5.violet {
+    background-color: rgb(226, 16, 230);
+}
+
+.c.t1.violet:hover,
+.c.t2.violet:hover,
+.c.t3.violet:hover,
+.c.t4.violet:hover,
+.c.t5.violet:hover {
+    box-shadow: 0 0 5px rgb(248, 11, 248), 0 0 15px rgb(216, 38, 223);
+}
+

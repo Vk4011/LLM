@@ -1,0 +1,97 @@
+.container {
+    border: 2px solid rgb(245, 65, 95);
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 15%;
+  }
+
+  .container:hover {
+    box-shadow: 0 0 10px rgb(236, 59, 115), 0 0 15px rgb(227, 72, 219),
+      0 0 25px rgb(233, 60, 141), 0 0 45px rgb(231, 48, 79);
+  }
+
+  .t {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52, 86, 52, 0.495);
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    justify-content: center;
+    border-radius: 2.5px;
+  }
+
+  .t:hover {
+    box-shadow: 0 0 10px rgb(76, 228, 76), 0 0 25px rgb(59, 236, 59),
+      0 0 50px rgb(73, 223, 73);
+  }
+
+  .t.t2,
+  .t.t4,
+  .t.t6,
+  .t.t8,
+  .t.t10,
+  .t.t13,
+  .t.t16 {
+    background-color: rgba(91, 219, 91, 0.71);
+    margin-bottom: 10px;
+  }
+
+  .t.t14 {
+    background-color: rgb(46, 242, 46);
+    margin-bottom: 30px;
+  }
+
+  .t.t11 {
+    background-color: rgb(61, 236, 61);
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+      margin-left: 0%;
+    }
+
+    .t {
+      width: 30px;
+      height: 20px;
+      font-size: 0.5rem;
+    }
+  }
+
+  audio {
+    display: none;
+  }
+
+  
+/*   
+అ
+ఆ
+ఇ
+ఈ
+ఉ
+ఊ
+ఋ
+ఌ
+ఎ
+ఏ
+ఐ
+ఒ
+ఓ
+ఔ
+అం
+అః
+   */
