@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Vowels from "./components/Vowels";
 import Consonants from "./components/Consonants";
-import Vathulu from "./components/Vathulu";
+
 import Bp from "./components/Bp";
 
 function App() {
