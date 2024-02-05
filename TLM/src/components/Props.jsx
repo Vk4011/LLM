@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Vathulu.css";
+
 
 function Props({ unicodeValues, color }) {
   const renderConsonant = (consonant) => {

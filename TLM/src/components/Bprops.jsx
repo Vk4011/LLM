@@ -1,5 +1,5 @@
 import React from 'react';
-import Vathuluprop from './Props';
+import Vp from './Props';
 import "../styles/Block.css";
 
 
@@ -15,7 +15,7 @@ function Bprops({ unicodeValues, colors }) {
           </div>
         </div>
         <div className="right">
-          <Vathuluprop unicodeValues={unicodeValues} color={colors} />
+          <Vp unicodeValues={unicodeValues} color={colors} />
         </div>
       </div>
     </div>

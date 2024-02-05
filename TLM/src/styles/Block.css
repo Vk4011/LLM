@@ -237,3 +237,51 @@
     box-shadow: 0 0 5px rgb(248, 11, 248), 0 0 15px rgb(216, 38, 223);
 }
 
+
+/* Responsive */
+
+@media only screen and (max-width: 767px) {
+  .r1{
+    width: 20px;
+    height: 20px;
+    font-size: 0.5rem;
+  }
+  .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .right {
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 12%;
+  }
+  .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    
+    
+
+  }
+  .vth {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+}
